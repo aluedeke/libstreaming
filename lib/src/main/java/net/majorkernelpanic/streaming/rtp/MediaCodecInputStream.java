@@ -62,6 +62,7 @@ public class MediaCodecInputStream extends InputStream {
 	}
 
 	@Override
+	@SuppressLint("WrongConstant")
 	public int read(byte[] buffer, int offset, int length) throws IOException {
 		int min = 0;
 
